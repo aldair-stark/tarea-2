@@ -3,7 +3,11 @@
 	<meta charset="utf8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth|Shrikhand" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 	<title>ARM FILES (jose aldair nava correa)</title>
+	<script src="prefixfree.js"></script>
 </head>
 <body>
 	<header>
@@ -31,14 +35,18 @@
 			<hr>
 			<section>
 				<fieldset>
-					<legend>Contacto</legend>
+					<legend>Ingresa</legend>
 					<form method="post" action="gardar.php">
 						<label>Nombre: &nbsp </label>
-						<input type= "text" name="nombre" required placeholder="nombrecon">
+						<input type= "text" name="nombre" required placeholder="write name">
 						<br>
 						<br>
-						<label>Correo</label>
-						<input type= "email" name="nombre" required placeholder="nombrecon">
+						<label>Correo:</label>
+						<input type= "email" name="email" required placeholder="email">
+						<br>
+						<br>
+						<label>Contraseña:</label>
+						<input type= "password" name="pasword" required placeholder="contraseña">
 						<br>
 						<br>
 						<input id="enviar" type="submit" value="enviar">
@@ -46,8 +54,10 @@
 					</form>
 				</fieldset>
 			</section>
-			<section id="sitio">
-				<article class="sitios">
+			</div>
+			<div id="sitio">
+			<section >
+				<article >
 					<h2>Tus archivos son armas</h2>
 					<p>Registra tu cuenta y disfruta lo que tenemos para ti</p>
 					
