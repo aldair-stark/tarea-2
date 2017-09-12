@@ -1,7 +1,7 @@
 header{
 	width: 85%;
 	height: 200px;
-	border: 5px double #3F51B5;
+	border: 5px double #827717;
 	border-radius: 5px;
 	background: #100F0F;
 	margin: 10px auto  0px;
@@ -19,11 +19,11 @@ header h1{
 	margin-left: 0px;
 	margin-top: 70px;
 	position: absolute;
-	color: #303F9F;
+	color: #2E7D32;
 	font-size: 4em;
-	font-family: 'Covered by your grace',
+	font-family: 'Josefin Sans', sans-serif;
 	cursive;
-	text-shadow:2px 4px 4px #E8EAF6;
+	text-shadow:2px 4px 4px #827717;
 	transition-property:color , text-shadow;
 	transition-duration:1s,1.5s;
 	-webkit-transition:color 1s;
@@ -60,24 +60,24 @@ nav ul >li{
 display: inline-block;
 width: 160px;
 height: 25px;
-border: 1px solid #3F51B5;
+border: 1px solid #827717;
 text-align: center;
 padding-top: 5px;
-background: #E8EAF6;
+background: #000000;
 font-size: 1em;
-font-family: 'chewy', cursive;
-color: #303F9F;
-text-shadow:2px 4px 4px #E8EAF6;
+font-family: 'Hammersmith One', sans-serif;
+color: #1B5E20;
+text-shadow:2px 4px 4px #827717;
 transition-property:background,color;
 transition-duration:2s,2s;
 }
 nav ul >li:hover{
-	background: #303F9F;
+	background: #AFB42B;
 	letter-spacing: 2px;
 }
 nav >ul >li a{
 	text-decoration: none;
-	color: #1A237E;
+	color: #1B5E20;
 }
 nav ul li ul{
 	position: absolute;
@@ -97,21 +97,62 @@ nav ul li:hover ul{
 	margin:0px auto 0px;
 }
 #contenido h2{
-	color: #303F9F;
+
+	color: #689F38;
 	font-size: 2em;
-	font-family: 'Covered BY Your Grace', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 	text-shadow:2px 4px 4px #9FA8DA;
 }
 #contenido p{
-	color: #303F9F;
+	color: #689F38;
 	font-size: 1em;
-	font-family: 'Abel' sans-serif;
+	font-family: 'Passion One', cursive;
 	text-align: justify;
 	font-weight: bold;
 }
+#contenido section fieldset legend{
+	color: #E8EAF6;
+}
+#contenido section {
+background-image: url("img5.jpg");
+ 
+
+}
 #contenido label{
 	color:#9FA8DA;
+}
+#sitio section {
+background-image: url("img5.jpg");
+ }
+ #sitio{
+	width: 90%;
+	height: auto;
+	margin:0px auto 0px;
+}
+#sitio section article h2{
+	color: #689F38;
+	font-size: 2em;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	text-shadow:2px 4px 4px #9FA8DA;
+	}
+#sitio h2{
+	color: #303F9F;
+	font-size: 2em;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	text-shadow:2px 4px 4px #9FA8DA;
+}
+#sitio section article p{
+	color: #33691E;
+	font-size: 1em;
+	font-family: 'Amaranth', sans-serif;
+	text-align: justify;
+	font-weight: bold;
+}
+#sitio section fieldset legend{
+	color: #E8EAF6;
 }
 #entradas article h3{
 	color:#9FA8DA ;
@@ -122,6 +163,32 @@ nav ul li:hover ul{
 hr{
 	width: 900px;
 	height: 10px;
-	background: #b71clc;
+	background: #B71CLC;
 	border-radius: 5px;
 }
+#abo section{
+	background:  #DCE775;
+
+}
+#abo section fieldset legend{
+color: #303F9F;
+	font-size: 2em;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	text-shadow:2px 4px 4px #9FA8DA;
+}
+#abo section  p{
+color: #33691E;
+	font-size: 1em;
+	font-family: 'Amaranth', sans-serif;
+	text-align: justify;
+	font-weight: bold;
+}
+#red section{
+	background:  #100F0F;
+
+}
+
+https://leaverou.github.io/prefixfree/css
+gist.github.com/OscarAbadFolgueria/f4dbb82
+codeigniter.com/user_guide/installation/index.html
